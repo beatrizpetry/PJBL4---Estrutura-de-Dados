@@ -13,11 +13,14 @@ Adota a estratégia de divisão e conquista. A estratégia consiste em rearranja
 # Prints de Execução
 Bubble Sort:
 ![Captura de tela 2023-11-13 163027](https://github.com/beatrizpetry/PJBL4---Estrutura-de-Dados/assets/132282038/3907a9a6-9991-46bd-94b2-592398f2973a)
+![Captura de tela 2023-11-13 163155](https://github.com/beatrizpetry/PJBL4---Estrutura-de-Dados/assets/132282038/44599801-b640-4a54-a7e4-ad4e7999ce38)
 
 Insertion Sort:
-![Alt text](image-2.png)
-![Alt text](image-3.png)
+![Captura de tela 2023-11-13 163234](https://github.com/beatrizpetry/PJBL4---Estrutura-de-Dados/assets/132282038/f0a1dbdf-d0ee-4ceb-94a9-c48a1fc43db0)
+![Captura de tela 2023-11-13 163304](https://github.com/beatrizpetry/PJBL4---Estrutura-de-Dados/assets/132282038/0ebc588f-41ae-4dfd-a125-eeb922f2e84a)
+
 Quick Sort:
-![Alt text](image-4.png)
-![Alt text](image-5.png)
+![Captura de tela 2023-11-13 164906](https://github.com/beatrizpetry/PJBL4---Estrutura-de-Dados/assets/132282038/259ca030-431a-45a3-96fa-3b1c1331b2b6)
+![Captura de tela 2023-11-13 164928](https://github.com/beatrizpetry/PJBL4---Estrutura-de-Dados/assets/132282038/9a71b5b0-0964-4389-adec-d3e37048e11a)
+
 
