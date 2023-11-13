@@ -14,6 +14,7 @@ public class Main {
             int resposta = inicio.nextInt();
             int[] array = {49, 15, 40, 27, 20, 19, 50, 2, 12, 28, 49, 44, 9, 59, 18, 5, 30, 6, 7, 28};
             if (resposta == 1) {
+                System.out.println();
                 System.out.print("===== Opção Selecionada: Bubble Sort =====");
                 System.out.println();
                 System.out.println("Array inicial:");
@@ -28,6 +29,7 @@ public class Main {
 
             }
             else if (resposta == 2){
+                System.out.println();
                 System.out.print("===== Opção Selecionada: Insertion Sort =====");
                 System.out.println();
                 System.out.println("Array inicial:");
@@ -42,9 +44,16 @@ public class Main {
 
             }
             else if (resposta == 3){
+                System.out.println();
                 System.out.print("===== Opção Selecionada: Quick Sort =====");
                 System.out.println();
+                System.out.println("Array inicial:");
+                QuickSort.printArray(array, true);
 
+                QuickSort.quickSort(array, 0, array.length - 1);
+
+                System.out.println("\nArray final ordenado:");
+                QuickSort.printArray(array, true);
 
             }
             else {

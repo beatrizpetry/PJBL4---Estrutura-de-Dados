@@ -1,16 +1,18 @@
 class BubbleSort {
+    private static int numIteracoes = 0;
     static void bubbleSort(int[] array) {
         int n = array.length;
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
                 if (array[j] > array[j + 1]) {
-                    int temp = array[j];
+                    int var = array[j];
                     array[j] = array[j + 1];
-                    array[j + 1] = temp;
+                    array[j + 1] = var;
                 }
             }
-            
-            System.out.println("Ordenando...");
+            numIteracoes++;
+
+            System.out.println("\nIteração " + numIteracoes + ":");
             printArray(array, true);
         }
     }
