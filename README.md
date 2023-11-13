@@ -9,3 +9,15 @@ Trabalho da disciplina de Estrutura de Dados, feito por Beatriz Petry, Julia Eng
 
 # Quick Sort
 Adota a estratégia de divisão e conquista. A estratégia consiste em rearranjar as chaves de modo que as chaves "menores" precedam as chaves "maiores". Em seguida o quicksort ordena as duas sublistas de chaves menores e maiores recursivamente até que a lista completa se encontre ordenada.
+
+# Prints de Execução
+Bubble Sort:
+![Alt text](image.png)
+![Alt text](image-1.png)
+Insertion Sort:
+![Alt text](image-2.png)
+![Alt text](image-3.png)
+Quick Sort:
+![Alt text](image-4.png)
+![Alt text](image-5.png)
+

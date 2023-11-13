@@ -1,15 +1,16 @@
+// O pivot utilizado foi sempre o último item do array/sub array
 public class QuickSort {
     private static int numIteracoes = 0;
     public static void quickSort(int[] array, int menor, int maior) {
         if (menor < maior) {
             numIteracoes++;
-            int indicePivot = partition(array, menor, maior);
+            int indicePivot = subarray(array, menor, maior);
             quickSort(array, menor, indicePivot - 1);
             quickSort(array, indicePivot + 1, maior);
         }
     }
 
-    public static int partition(int[] array, int menor, int maior) {
+    public static int subarray(int[] array, int menor, int maior) {
         int pivot = array[maior];// o pivot sempre é o ultimo elemento da array
         int i = menor - 1;
 
