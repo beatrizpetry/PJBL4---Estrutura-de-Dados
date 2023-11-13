@@ -3,22 +3,22 @@ public class QuickSort {
     public static void quickSort(int[] array, int menor, int maior) {
         if (menor < maior) {
             numIteracoes++;
-            int indicePivot = partition(array, menor, maior); // Escolhendo o pivot como o último elemento do array
+            int indicePivot = partition(array, menor, maior);
             quickSort(array, menor, indicePivot - 1);
             quickSort(array, indicePivot + 1, maior);
         }
     }
 
     public static int partition(int[] array, int menor, int maior) {
-        int pivot = array[maior];
+        int pivot = array[maior];// o pivot sempre é o ultimo elemento da array
         int i = menor - 1;
 
         for (int j = menor; j < maior; j++) {
             if (array[j] <= pivot) {
                 i++;
-                int temp = array[i];
+                int var = array[i];
                 array[i] = array[j];
-                array[j] = temp;
+                array[j] = var;
             }
         }
         int var = array[i + 1];

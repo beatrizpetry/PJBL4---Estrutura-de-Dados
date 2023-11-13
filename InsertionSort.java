@@ -1,5 +1,6 @@
 public class InsertionSort {
     private static int numIteracoes = 0;
+
     public static void insertionSort(int[] array) {
         int tamanho = array.length;
         for (int i = 1; i < tamanho; ++i) {
@@ -10,12 +11,12 @@ public class InsertionSort {
                 array[j + 1] = array[j];
                 j = j - 1;
             }
+            
             array[j + 1] = chave;
             numIteracoes++;
 
             System.out.println("\nIteração " + numIteracoes + ":");
             printArray(array, true);
-            
         }
     }
 
@@ -26,7 +27,7 @@ public class InsertionSort {
             } else {
                 System.out.print(array[i]);
             }
-            
+
             if (i < array.length - 1) {
                 System.out.print(" ");
             }
