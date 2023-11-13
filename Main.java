@@ -52,7 +52,7 @@ public class Main {
 
                 QuickSort.quickSort(array, 0, array.length - 1);
 
-                System.out.println("\nArray final ordenado:");
+                System.out.println("\nArray final (ordenado):");
                 QuickSort.printArray(array, true);
 
             }
